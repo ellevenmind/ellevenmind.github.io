@@ -1,0 +1,13 @@
+{
+  "companyName": "EllevenMind",
+  "palette": {
+    "background": "#F7F2ED",
+    "textPrimary": "#1A1A1A",
+    "textSecondary": "#666666",
+    "accent": "#D97757",
+    "border": "#E0DBD5"
+  },
+  "metadata": {
+    "founded": "2026-02-04"
+  }
+}
