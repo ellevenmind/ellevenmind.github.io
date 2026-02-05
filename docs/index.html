@@ -10,8 +10,8 @@
             --text-primary: #121212;
             --text-secondary: #555555;
             --footer-bg: #111111;
-            --footer-text: #EEEEEE;
-            --footer-text-muted: #999999;
+            --footer-text: #FFFFFF;
+            --footer-text-muted: #888888;
             --border-color: #E5E3DF;
             --font-serif: "Times New Roman", Times, Georgia, serif;
             --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -127,7 +127,7 @@
 
         .footer-grid {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             gap: 2rem;
             margin-bottom: 6rem;
         }
@@ -138,6 +138,7 @@
             color: var(--footer-text-muted);
             text-transform: uppercase;
             letter-spacing: 0.1em;
+            font-weight: 600;
         }
 
         .footer-col ul {
@@ -145,14 +146,16 @@
         }
 
         .footer-col ul li {
-            margin-bottom: 1rem;
+            margin-bottom: 0.75rem;
         }
 
         .footer-col ul li a {
             text-decoration: none;
             color: var(--footer-text);
-            font-size: 1rem;
+            font-family: var(--font-serif);
+            font-size: 1.4rem;
             transition: opacity 0.2s;
+            display: inline-block;
         }
 
         .footer-col ul li a:hover {
@@ -169,13 +172,6 @@
             color: var(--footer-text-muted);
         }
 
-        @media (max-width: 900px) {
-            .footer-grid {
-                grid-template-columns: 1fr 1fr;
-                gap: 3rem;
-            }
-        }
-
         @media (max-width: 768px) {
             .content-section {
                 grid-template-columns: 1fr;
@@ -185,6 +181,9 @@
             }
             .main-text {
                 font-size: 1.3rem;
+            }
+            .footer-col ul li a {
+                font-size: 1.2rem;
             }
         }
 
@@ -219,7 +218,7 @@
         <section class="content-section">
             <div class="label">Our Approach</div>
             <div class="main-text">
-                <p>We provide strategic direction and operational resources for high-impact technology projects. Our primary focus is the development of AI research that is reliable, interpretable, and beneficial to society.</p>
+                <p>We provide strategic direction and operational resources for high-impact technology projects. Our primary focus is the development of AI research that is reliable, interpretable, and beneficial to humanity.</p>
             </div>
         </section>
     </main>
@@ -227,13 +226,6 @@
     <footer>
         <div class="container">
             <div class="footer-grid">
-                <div class="footer-col">
-                    <h4>Company</h4>
-                    <ul>
-                        <li><a href="#">Overview</a></li>
-                        <li><a href="#">Projects</a></li>
-                    </ul>
-                </div>
                 <div class="footer-col">
                     <h4>Research</h4>
                     <ul>
@@ -246,13 +238,6 @@
                     <ul>
                         <li><a href="https://x.com/" target="_blank">X (Twitter)</a></li>
                         <li><a href="https://github.com/" target="_blank">GitHub</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Legal</h4>
-                    <ul>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Service</a></li>
                     </ul>
                 </div>
             </div>
