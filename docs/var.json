@@ -1,0 +1,28 @@
+{
+  "company": {
+    "name": "EllevenMind",
+    "founded": "2026-02-04",
+    "mission": "Dedicated to the infrastructures of tomorrow.",
+    "slogan": "11 is such a cool number.",
+    "allRightsReserved": true
+  },
+  "palette": {
+    "background": "#F7F2ED",
+    "textPrimary": "#1A1A1A",
+    "textSecondary": "#666666",
+    "accent": "#D97757",
+    "border": "#E0DBD5"
+  },
+  "subsidiaries": [
+    {
+      "name": "EllevenMind DeepResearch",
+      "focus": "AI Research and Datasets",
+      "status": "Active"
+    }
+  ],
+  "socials": {
+    "github": "https://github.com/[your-username]",
+    "huggingface": "https://huggingface.co/[your-org]",
+    "x": "https://x.com/[your-handle]"
+  }
+}
